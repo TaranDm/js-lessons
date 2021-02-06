@@ -68,8 +68,7 @@ function showMyDB(){
 showMyDB();
 function writeYourGenres() {
   for(let i = 0; i < 3; i++ ) {
-      const c = prompt(`${i+1}. Ваш любимый жанр `, '');
-    personalMovieDB.genres[i] = c 
+    personalMovieDB.genres[i] =prompt(`${i+1}. Ваш любимый жанр `, '');
   }
 }
 writeYourGenres();
